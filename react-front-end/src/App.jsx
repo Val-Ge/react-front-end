@@ -3,6 +3,9 @@ import Sheep from './Sheep'
 import Greeter from './Greeter';
 import ShoppingList from './ShoppingList';
 import PropertyList from './PropertyList';
+import Clicker from './Clicker';
+import Form from './Form';
+import Clicker2 from './Clicker2'
 
 // const data = [
 //   { id: 1, item: "eggs", quantity: 12, completed: false },
@@ -23,7 +26,8 @@ const properties = [
 function App() {
   return ( 
     <div>
-     <PropertyList properties={properties}/>
+   <Clicker2 message="HI!!!!" buttonText="Click Me"/>
+   <Clicker2 message="Please stop Clicking Me!" buttonText="do not click" />
     </div>
   );
 }
